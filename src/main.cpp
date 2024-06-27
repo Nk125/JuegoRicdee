@@ -71,7 +71,7 @@ int main() {
 	self::stdutils::pause();
 
 	sold = self::product::randomNum(4, 45);
-                                                                        priceAll = prodPrice * sold;
+	priceAll = prodPrice * sold;
 
 	std::wcout << "\n\nAcaba de llegar una venta!\n"
 		"Vendiste " << sold << " " << prod.second << "!\n\n"
